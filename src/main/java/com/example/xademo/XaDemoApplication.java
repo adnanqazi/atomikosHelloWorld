@@ -68,7 +68,7 @@ public class XaDemoApplication {
 
 	private JdbcDataSource dataSource(String b) {
 		JdbcDataSource jdbcDataSource = new JdbcDataSource();
-		jdbcDataSource.setUrl("jdbc:h2:./"+b);
+		jdbcDataSource.setUrl("jdbc:h2:mem:"+b);
 		jdbcDataSource.setUser("sa");
 		jdbcDataSource.setPassword("");
 		return jdbcDataSource;

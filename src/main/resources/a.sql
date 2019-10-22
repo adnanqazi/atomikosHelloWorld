@@ -1,4 +1,4 @@
-create TABLE PET (
+create TABLE IF NOT EXISTS PET (
     id VARCHAR NOT NULL UNIQUE,
     nickname VARCHAR NOT NULL
 );
