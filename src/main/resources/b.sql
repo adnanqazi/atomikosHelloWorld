@@ -1,0 +1,4 @@
+create TABLE MESSAGE (
+    id VARCHAR NOT NULL UNIQUE,
+    message VARCHAR NOT NULL
+);
