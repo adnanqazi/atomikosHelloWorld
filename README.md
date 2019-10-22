@@ -14,3 +14,5 @@ Repeat the process choosing some other animal in JSON
 
 Now add rollback query param to http://localhost:8080?rollback=e
 Note, checking with above GET calls, payload was not commited, despite that fact that exception is thrown after after DB calls
+
+Unit test part needs to be driven to completion, perhaps a couple of hrs of my time, when i have it, the runtime logic however runs end to end, even in current shape 
